@@ -71,6 +71,7 @@ export default {
   span,
    p {
       @include style-card;
+      margin-top: 0!important;
     }
     .cardsmap {
       z-index: 11111111111111;
