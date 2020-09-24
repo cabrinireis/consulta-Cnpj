@@ -22,7 +22,7 @@ export default {
       const dado = data.cnpj
       try {
         // config proxy
-        const Details = await Axios.get(`/v1/cnpj/${dado}`, {
+        const Details = await Axios.get(`https://check-cnpj.herokuapp.com/https://www.receitaws.com.br/v1/cnpj/${dado}`, {
           validateStatus: function (status) {
             return status >= 200 && status < 300 // default
           }

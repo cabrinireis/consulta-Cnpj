@@ -1,5 +1,5 @@
-module.exports = {
- devServer: {
-     proxy: 'https://www.receitaws.com.br'
- },
-}
+// module.exports = {
+//  devServer: {
+//      proxy: 'https://www.receitaws.com.br'
+//  },
+// }
